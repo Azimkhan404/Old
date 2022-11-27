@@ -1,7 +1,20 @@
 import os
 
-os.system('git pull')
+if __name__ == "__main__":
 
-import CAT
+   try:
 
-CAT.login()
+       os.system("git pull");os.system('xdg-open https://youtube.com/@mrhacker4966')
+
+       __import__("CAT").menu()
+
+   except Exception as e: 
+
+       exit(str(e))
+
+
+
+
+
+
+

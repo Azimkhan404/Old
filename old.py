@@ -2,6 +2,6 @@ import os
 
 os.system('git pull')
 
-import cat.py
+import CAT.py
 
-cat.login()
+CAT.login()

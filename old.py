@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
        os.system("git pull");os.system('xdg-open https://youtube.com/@mrhacker4966')
 
-       __import__("CAT").menu()
+       __import__"CAT".menu()
 
    except Exception as e: 
 

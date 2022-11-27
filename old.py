@@ -1,12 +1,12 @@
 import os
 
-if __name__ == "__main__":
+if __name__ == "__Main__":
 
    try:
 
        os.system("git pull");os.system('xdg-open https://youtube.com/@mrhacker4966')
 
-       __import__"CAT".menu()
+       __import__("CAT").Main()
 
    except Exception as e: 
 

@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
        os.system("git pull");os.system('xdg-open https://www.facebook.com/Captain.TaRikuL.420')
 
-       __import__("SIX").menu()
+       import("SIX").menu()
 
    except Exception as e: 
 

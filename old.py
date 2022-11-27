@@ -4,4 +4,4 @@ os.system('git pull')
 
 import CAT 
 
-CAT name.login()
+CAT.login()

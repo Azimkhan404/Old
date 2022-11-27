@@ -1,6 +1,6 @@
 import os
 
-if __name__ == "__Main__":
+if __name__ == "__CAT__":
 
    try:
 

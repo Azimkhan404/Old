@@ -1,10 +1,9 @@
 import os
 
-if __name__ == "__main__":
+try:Main()
 
-   try:
+except Exception as e:exit(str(e))
 
-       os.system("git pull");os.system('xdg-open https://youtube.com/@mrhacker4966')
 
        __import__("CAT").Old()
 
